@@ -6,7 +6,8 @@ import {
   useReducer,
 } from "react";
 
-const BASE_URL = "http://localhost:3002";
+// const BASE_URL = "https://api.bigdatacloud.net/data/";
+const BASE_URL = "http://185.80.196.19:3000";
 const CitiesContext = createContext();
 
 const initialState = {
