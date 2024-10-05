@@ -7,7 +7,9 @@ import {
 } from "react";
 
 // const BASE_URL = "https://api.bigdatacloud.net/data/";
-const BASE_URL = "http://185.80.196.19:3000";
+const BASE_URL = "https://alohpanel.ir/json";
+console.log(BASE_URL);
+
 const CitiesContext = createContext();
 
 const initialState = {
